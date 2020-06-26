@@ -1,0 +1,28 @@
+{
+  "name": "pdftronserver",
+  "version": "1.0.0",
+  "description": "PDFtron server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kksmartexchange/pdftronserver.git"
+  },
+  "author": "KK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kksmartexchange/pdftronserver/issues"
+  },
+  "homepage": "https://github.com/kksmartexchange/pdftronserver#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "multer": "^1.4.2",
+    "serve-static": "^1.14.1"
+  }
+}
